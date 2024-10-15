@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nina Carducci Photographe à Bordeaux</title>
     <meta
       name="description"
       content="Nina Carducci, photographe professionnelle à Bordeaux, spécialisée en portraits, mariages, et shootings artistiques. Capturez des moments uniques avec une approche créative et authentique."
     />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+        rel="stylesheet"
+        type="text/css"
+      />
+    </noscript>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
+      defer
     ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/maugallery.min.js" defer></script>
+    <script src="./assets/scripts.min.js" defer></script>
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Nina Carducci Photographe" />
@@ -48,8 +59,8 @@
           <li><a href="#contact">Contact</a></li>
           <li>
             <a
-              class="social-link" 
-			  aria-label="Instagram de Nina Carducci"
+              class="social-link"
+              aria-label="Instagram de Nina Carducci"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
               ><img src="assets/images/instagram.webp" alt="Logo Instagram"
@@ -141,7 +152,7 @@
           Devenir photographe était pour moi une évidence. Comme si j’y étais
           prédestiné. Saisir un moment, une émotion, une situation, un endroit,
           une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-		</p>
+        </p>
         <p>
           Nous passons notre vie à chercher le bonheur, et lorsque nous y
           touchons, nous n’avons qu’une envie : le figer au travers de
